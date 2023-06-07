@@ -1,0 +1,24 @@
+#container{
+    height: 89dvh;
+    background-color: cadetblue;
+    padding: 4dvh;
+}
+
+.top1{
+    padding: 10dvh;
+    background-color: rgb(240, 11, 11);
+}
+.top1 > div{
+    padding: 1dvh;
+    background-color: aliceblue;
+}
+.middle1{
+    margin-top: 5dvh;
+    margin-bottom: 5dvh;
+    padding: 25dvh;
+    background-color: rgb(247, 247, 247);
+}
+.bottom1{
+    padding: 5dvh;
+    background-color: rgb(240, 11, 11);
+}
