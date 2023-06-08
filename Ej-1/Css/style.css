@@ -1,4 +1,7 @@
 * {
+  @media screen{
+    (max-width:1200px);
+  }
   margin: 10px;
   padding: 10px;
   box-sizing: border-box;
@@ -9,9 +12,6 @@
 }
 #box{
   background-color: rgb(56, 89, 126);
-}
-.menu{
-  display: flex;
 }
 nav{
   background-color: rgb(177, 103, 97);
@@ -24,8 +24,11 @@ nav{
 header{
   background-color: rgb(0, 0, 0);
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
   section{display: flex;}
+}
+@media screen and (min-width: 650px) {
+  .menu{display: flex ;}
 }
 section{
   background-color: rgb(11, 11, 11);
