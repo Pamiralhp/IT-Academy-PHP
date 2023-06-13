@@ -11,6 +11,9 @@
 // echo "<br>" . $TF;
 // echo "<br>" . NAME;
 
+//Ejercicio-2
+$txt = "Hello world!";
+
 $upperCase = strtoupper($txt);
 echo "<br>" . $upperCase . "<br>";
 
