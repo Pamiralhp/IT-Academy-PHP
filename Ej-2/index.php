@@ -1,25 +1,26 @@
 <?php
-$txt = "Hello world!";
-$x = 5;
-$y = 10.5;
-$TF = true;
-const NAME = "Pavel";
-echo $txt;
-echo "<br>" . $x;
-echo "<br>" . $y;
-echo "<br>" . $TF;
-echo "<br>" . NAME;
+//Ejercicio-1
+// $txt = "Hello world!";
+// $x = 5;
+// $y = 10.5;
+// $TF = true;
+// const NAME = "Pavel";
+// echo $txt;
+// echo "<br>" . $x;
+// echo "<br>" . $y;
+// echo "<br>" . $TF;
+// echo "<br>" . NAME;
 
-$upperString = strtoupper($txt);
-echo $upperString . "<br>";
+$upperCase = strtoupper($txt);
+echo "<br>" . $upperCase . "<br>";
 
-$stringLength = strlen($txt);
-echo $stringLength . "<br>";
+$length = strlen($txt);
+echo $length . "<br>";
 
-$reversedString = strrev($txt);
-echo $reversedString . "<br>";
+$reversed = strrev($txt);
+echo $reversed . "<br>";
 
-$newString = "Este es el curso de PHP";
-$concatenatedString = $txt . " " . $newString;
-echo $concatenatedString . "<br>";
+$text2 = "Este es el curso de PHP";
+$concatxt = $txt . " " . $text2;
+echo $concatxt . "<br>";
 ?>
