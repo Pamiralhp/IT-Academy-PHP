@@ -116,14 +116,13 @@ calificaciones(80);
 
 echo "<hr><h2>". "Ejercicio-6"."</h2>";
 
-function isBitten($mordida){
-    if ( $mordida >= 50){
+function isBitten() {
+    return rand(0, 1) == 1;
+}
+    if (isBitten()){
         echo "True";
     }
     else{
         echo "False";
     }
-}
-isBitten($mordida = rand(0, 100));
-
 ?>
