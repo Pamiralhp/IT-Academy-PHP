@@ -1,6 +1,4 @@
 <?php
-
-define('STDIN',fopen("php://stdin","r"));
 echo "<h2>"."Ejercicio-1"."</h2>";
 $txt = "Hello world!";
 $x = 5;
