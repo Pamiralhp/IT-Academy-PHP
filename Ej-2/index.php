@@ -85,4 +85,15 @@ function calculator($num1, $num2, $operator) {
 
 $result = calculator(23, 12,"+");
 echo "Resultado: " . $result ;
+
+echo "<hr><h2>". "Ejercicio-4"."</h2>";
+
+function contardor($n, $paso) {
+    for ($i=0; $i <= $n ; $i += $paso) { 
+
+        echo $i . "<br>";
+    }    
+}
+contardor(20, 2);
+
 ?>
