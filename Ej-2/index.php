@@ -100,19 +100,20 @@ echo "<hr><h2>". "Ejercicio-5"."</h2>";
 
 function calificaciones($nota) {
     if ($nota >= 60){
-        echo "Primera Division";
+        return "Primera Division";
     }
     elseif($nota >= 45){
-        echo "Segunda Division";
+        return "Segunda Division";
     }
     elseif ($nota >= 33){
-        echo "Tercera Division";
+        return "Tercera Division";
     }
     else{
-        echo "Reprobado";
+        return "Reprobado";
     }
 }
-calificaciones(80);
+$calificado = calificaciones(80);
+echo "El estudiante es: " . $calificado ;
 
 echo "<hr><h2>". "Ejercicio-6"."</h2>";
 
