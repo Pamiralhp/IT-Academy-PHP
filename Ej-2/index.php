@@ -96,4 +96,21 @@ function contardor($n, $paso) {
 }
 contardor(20, 2);
 
+echo "<hr><h2>". "Ejercicio-5"."</h2>";
+
+function calificaciones($nota) {
+    if ($nota >= 60){
+        echo "Primera Division";
+    }
+    elseif($nota >= 45){
+        echo "Segunda Division";
+    }
+    elseif ($nota >= 33){
+        echo "Tercera Division";
+    }
+    else{
+        echo "Reprobado";
+    }
+}
+calificaciones(80);
 ?>
