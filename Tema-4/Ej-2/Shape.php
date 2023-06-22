@@ -12,7 +12,7 @@ class Shape
 
     public  function print($area)
     {
-        echo "El area es de $area <br>";
+        return $area;
     }
 }
 
