@@ -1,0 +1,6 @@
+/vendor
+/autoload.php
+/composer.json
+/composer.lock
+/extensions.json
+/launch.json
