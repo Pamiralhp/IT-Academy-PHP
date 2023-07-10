@@ -1,0 +1,17 @@
+{
+    "name": "pvl/test-debug",
+    "require": {
+        "phpunit/phpunit": "^10.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pvl\\TestDebug\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pamiralhp",
+            "email": "132684622+Pamiralhp@users.noreply.github.com"
+        }
+    ]
+}

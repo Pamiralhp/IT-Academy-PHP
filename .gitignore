@@ -4,3 +4,5 @@
 /composer.lock
 /extensions.json
 /launch.json
+/vendor
+/Test-debug/vendor
