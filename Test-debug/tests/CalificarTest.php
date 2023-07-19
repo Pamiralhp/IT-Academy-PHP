@@ -4,11 +4,10 @@ include 'src\Calificar.php';
 use PHPUnit\Framework\TestCase;
 final class CalificarTest extends TestCase{
     public function testCalificar(){
-        $nota = null;
-        $grade = new Calificar($nota);
-        $grade1 = new Calificar($nota);
-        $grade2= new Calificar($nota);
-        $grade3 = new Calificar($nota);
+        $grade = new Calificar();
+        $grade1 = new Calificar();
+        $grade2= new Calificar();
+        $grade3 = new Calificar();
         
         
         $this->assertEquals($grade->Calificar(20),"Reprobado");
