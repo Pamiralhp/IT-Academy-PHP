@@ -1,7 +1,7 @@
 <?php
 require "Sound.php";
 class Dog implements Sound {
-    private $name;
+    public $name;
     public function makeSound(){
         return "Guau, Guau!";
     }
