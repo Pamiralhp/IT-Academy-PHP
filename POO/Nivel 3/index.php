@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./CSS/Style.css">
+</head>
+<body>
+    <header>
+        <h1>Movies and Theaters</h1>
+    </header>
+    <container>
 <?php
 
 include_once "./Movie.php";
@@ -22,8 +32,9 @@ $director1 = "Director 1";
 $directorMovies = Theater::findDirector($director1, $theaters);
 
 echo $cine1->showMovies() ."\n";
-echo "Peliculas dirigidas por $director1: " . $directorMovies;
-
-
-
+echo "<h2>Peliculas de: $director1: </h2>";
+echo "<p class='list'>" . $directorMovies . "</p>";
 ?>
+    </container>
+</body>
+</html>

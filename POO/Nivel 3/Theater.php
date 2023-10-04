@@ -36,13 +36,21 @@ class Theater {
         return $LongestMovie;
     }
     public function showMovies() {
-            echo "Cine: {$this->name}, Población: {$this->city}\n";
-            foreach ($this->movies as $movie) {
-                echo "Película: {$movie->getName()}, Duración: {$movie->getLength()} minutos, Director: {$movie->getDirector()}\n";
-            }
-            echo "\n";
+        echo "<h2>Cine: {$this->name}, Población: {$this->city}</h2>";
+        echo "<ul class='movie-list'>";
+    
+        foreach ($this->movies as $movie) {
+            $movieName = $movie->getName();
+            $movieLength = $movie->getLength();
+            $movieDirector = $movie->getDirector();
+    
+            echo "<li class='list'>";
+            echo "<strong>Películas:</strong> $movieName, <strong>Duración:</strong> $movieLength minutos, <strong>Director:</strong> $movieDirector";
+            echo "</li>";
+        }
+    
+        echo "</ul>";
     }
-
     public static function findDirector($directorName, $theaters) {
         $directorMovies = [];
 
